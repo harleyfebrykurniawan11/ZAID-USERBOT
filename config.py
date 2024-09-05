@@ -10,15 +10,15 @@ API_ID = int(getenv("API_ID", "6435225")) #optional
 API_HASH = getenv("API_HASH", "") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID", "6114424839") 
 MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "7185096229:AAHaCVOai8alDrQtTRJ3iP4FfzcUs_IGSuQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "7454104338:AAF0LXEKZNNEcn426Ima8zporrEh__xnnIE")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/harleyfebrykurniawan11/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
